@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>VALE user flow</title>
+    <title>VALE User Flow</title>
     <link href="style.css" rel="stylesheet" type="text/css" data-preload="true"/>
     <style>
       body {
-        background-color: purple;
-        display: block !important;
+        background-color: #ccc;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
       }
-        h1 {
-    color: blue;
-    text-align: center;
-  }
-  .intro h2 {
-    text-align: center;
-    color: red;
-  }
-  .entry {
-    width: 400px ;
-    margin-left: auto ;
-    margin-right: auto ;
-  }
-  .divider h2 {
-    text-align: center;
-  }
-  .create {
-    width: 400px ;
-    margin-left: auto ;
-    margin-right: auto ;
-  }
+
+      h1, h2 {
+        color: green;
+        text-align: center;
+      }
+
+      .entry, .create {
+        width: 400px;
+        margin: 20px auto;
+        text-align: center;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        outline: none;
+      }
+
+      input:focus {
+        outline: 2px solid blue;
+      }
+
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        background-color: #0078D4;
+        color: white;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #005A9E;
+      }
+
+      #api {
+        width: 100%;
+        max-width: 500px;
+      }
     </style>
 </head>
 <body>
