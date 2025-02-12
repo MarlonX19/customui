@@ -1,3 +1,8 @@
+body {
+  background-color: purple;
+  display: block !important;
+}
+
 h1 {
     color: blue;
     text-align: center;
@@ -19,3 +24,4 @@ h1 {
     margin-left: auto ;
     margin-right: auto ;
   }
+
